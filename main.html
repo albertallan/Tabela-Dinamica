@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <form id="idform" onsubmit="return salvar();">
+    <div id="div-nome" class="div-campos">
+        <label>Nome:</label>
+        <input type="text" id="nome"  name="nome" value="" placeholder="Digite seu Usuário">
+    </div>
+    <div id="div-cpf" class="div-campos">
+        <label>Cpf:</label>
+        <input type="text" id="cpf"  name="cpf" value="" placeholder="Digite seu Usuário">
+    </div>
+    <div id="div-datanascimento" class="div-campos">
+        <label>Data De Nascimento:</label>
+        <input type="text" id="datanascimento"  name="datanascimento" value="" placeholder="Digite seu Usuário">
+    </div>
+    <div id="div-email" class="div-campos">
+        <label>Email:</label>
+        <input type="text" id="email"  name="email" value="" placeholder="Digite seu Usuário">
+    </div>
+
+    <button>Salvar</button>
+
+    <table id="tabela">
+        <tr>
+            <th>Nome</th>
+            <th>Cpf</th>
+            <th>Data de Nascimento</th>
+            <th>Email</th>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
